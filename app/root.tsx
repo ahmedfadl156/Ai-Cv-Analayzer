@@ -37,6 +37,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" type="image/svg+xml" href="/app-icon.svg" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/app-icon.svg" />
         <Meta />
         <Links />
       </head>
